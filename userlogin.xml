@@ -1,0 +1,14 @@
+<database>
+    <login>
+        <username>karthick.mariappan@aspiresys.com</username>
+        <password>mariappan</password>
+    </login>
+    <login>
+        <username>selvam</username>
+        <password>vasu</password>
+    </login>
+    <login>
+        <username>m.karthickvasu@gmail.com</username>
+        <password>vasu</password>
+    </login>
+</database>

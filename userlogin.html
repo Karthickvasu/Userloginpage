@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type = "text/css" href="userlogin.css">
+    <script type="text/javascript" src = "userlogin.js"></script>
+</head>
+<body onload="display()">
+    <div class="container">
+        <div class="header">
+            <div class="timer">
+                <span id="day" style="font-family:verdana;font-size:150%;color:purple;"></span><br>
+                <span id="date" style="font-family:verdana;font-size:150%;color:blue;"></span><br>
+                <span id="time" style="font-family:verdana; font-size:150%;color:red;"></span>
+            </div>    
+        </div>
+        <div id="login-form">
+            <form name="login-form" action="http//:www.aspiresys.com">
+                <table>
+                    <tr>
+                        <th>Login Page</th>
+                    </tr>
+                    <tr>
+                        <td class="text">User Id/Email:</td>
+                    </tr>
+                    <tr>
+                        <td class="input1"><input type="text" name="uname" placeholder="Email address"></td>
+                    </tr>
+                    <tr>
+                        <td class="text">Password:</td>
+                    </tr>
+                    <tr>
+                        <td class="input"><input type="password" name="passwd" placeholder="Password"></td>
+                    </tr>
+                    <tr>
+                        <td><span id="errorMsg"></span></td>
+                    </tr>
+                    <tr>
+                        <td><input type="button" name="submit" value="Sign - in" onclick="emailValidate()">
+                        <input type="reset" name="reset" value="Reset"></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
